@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/gradient-zoom-effect-background_23-2149737550.avif');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .tela-com-fundo {
+    background-color: rgba(255, 255, 255, 0.8); 
+  }
+
+  h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    margin: 0; 
+  }
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
